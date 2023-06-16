@@ -2,11 +2,6 @@ const colors = {
   blueColor: '#162950',
   backgroundColor: '#0F1624',
   whiteColor: '#FFFFFF',
-  gradientColor: '#2bc0e4' /* fallback for old browsers */,
-  gradientColorLagacy:
-    '-webkit-linear-gradient(to right, #2bc0e4, #eaecc6)' /* Chrome 10-25, Safari 5.1-6 */,
-  gradientColorActually:
-    'linear-gradient(to right, #2bc0e4, #eaecc6)' /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */,
 };
 
 const fontFamily = {

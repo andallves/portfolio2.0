@@ -2,6 +2,8 @@ const colors = {
   blueColor: '#162950',
   backgroundColor: '#0F1624',
   whiteColor: '#FFFFFF',
+  gradientColor: '#00d2ff',
+
 };
 
 const fontFamily = {

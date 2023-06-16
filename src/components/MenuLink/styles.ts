@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 export const Menu = styled.div`
-   ${({ theme }) => css`
+  ${({ theme }) => css`
       width: 45rem;
       position: relative;
       display: flex;
@@ -16,7 +16,12 @@ export const Menu = styled.div`
         font-size: ${theme.sizes.small};
         line-height: 4.5rem;
 
-        color${theme.colors.whiteColor};
+        color: ${theme.colors.whiteColor};
+        transition: all .3s;
+
+        &:hover {
+          color: ${theme.colors.gradientColor};
+        }
       }
    `}
 `;

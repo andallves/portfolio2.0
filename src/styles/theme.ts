@@ -14,14 +14,14 @@ const fontFamily = {
 };
 
 const sizes = {
-  sxmall: '2rem',
-  small: '2.4rem',
-  medium: '2.8rem',
-  large: '3.2rem',
-  xlarge: '3.6rem',
-  xxlarge: '4.2rem',
-  huge: '4.8rem',
-  xhuge: '6.4rem',
+  sxmall: '1.6rem',
+  small: '2rem',
+  medium: '2.4rem',
+  large: '2.8rem',
+  xlarge: '3.2rem',
+  xxlarge: '3.6rem',
+  huge: '4.0rem',
+  xhuge: '4.4rem',
 };
 
 export interface StyleClosetTheme {

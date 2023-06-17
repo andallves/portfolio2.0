@@ -1,9 +1,9 @@
 import styled, { css } from 'styled-components';
 
-export const Button = styled.button.attrs({})`
-  ${({ theme, width, height }) => css`
-    width: ${ width };
-    height: ${ height };
+
+export const Button = styled.button`
+  ${({ theme }) => css`
+    
 
     background: #00d2ff; /* fallback for old browsers */
     background: -webkit-linear-gradient(

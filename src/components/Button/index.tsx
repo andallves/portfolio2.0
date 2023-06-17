@@ -1,14 +1,14 @@
 import * as Styled from './styles';
 
 interface ButtonProps {
-  children: string;
+  children: React.ReactNode;
   type: 'button' | 'submit' | 'reset';
   width: string;
   height: string;
 }
-export const Button = ({ children, type, width, height }: ButtonProps) => {
+export const Button = ({ children, type }: ButtonProps) => {
   return (
-    <Styled.Button type={type} width={width} height={height}>
+    <Styled.Button type={type}>
       {children}
     </Styled.Button>
   );

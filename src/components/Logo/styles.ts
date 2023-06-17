@@ -15,12 +15,12 @@ export const Container = styled.div`
       left: calc(50% - 12.4rem/2) - 70.6rem;
       color: ${theme.colors.whiteColor};
 
-      font-family: ${theme.fontFamily.default};
+      font-family: 'Satisfy', cursive;
       font-style: normal;
       font-weight: 500;
-      font-size: ${theme.sizes.small};
+      font-size: ${theme.sizes.xlarge};
       line-height: 4.5rem;
-      color: ${theme.colors.whiteColor};
+      color: ${theme.colors.grayColor};
     }
   `}
 `;

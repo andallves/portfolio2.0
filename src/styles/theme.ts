@@ -3,6 +3,7 @@ const colors = {
   backgroundColor: '#0F1624',
   whiteColor: '#FFFFFF',
   gradientColor: '#00d2ff',
+  grayColor: '#ababab'
 
 };
 
@@ -11,7 +12,7 @@ const fontFamily = {
 };
 
 const sizes = {
-  sxmall: '1.6rem',
+  xsmall: '1.6rem',
   small: '2rem',
   medium: '2.4rem',
   large: '2.8rem',

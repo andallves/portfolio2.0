@@ -1,17 +1,25 @@
-import { Button } from '../../components/Button';
 import * as Styled from './styles';
+import { Curriculum } from '../../components/Curriculum';
+import headerBg from '../../assets/imgs/header_bg.png';
 
 export const Header = () => {
   return (
     <Styled.Header>
-      <h1>I'm Andre Alves Web Developer</h1>
+      <h1 >
+        Hi, I'm Andre Alves!
+      </h1>
+      <div className="text-animate">
+        <h3>Fullstack Developer.</h3>
+      </div>
+
       <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed culpa quos
         tempora odit rerum id, consequatur temporibus aliquam quam quae officia
       </p>
-      <Button type={'button'} width={'17rem'} height={'5rem'}>
-        Let's begin
-      </Button>
+
+      <img src={headerBg} alt="abstract image" />
+
+      <Curriculum />
     </Styled.Header>
   );
 };

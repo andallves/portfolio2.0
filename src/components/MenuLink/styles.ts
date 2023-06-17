@@ -15,8 +15,12 @@ export const Menu = styled.div`
         font-weight: 500;
         font-size: ${theme.sizes.small};
         line-height: 4.5rem;
-
         color${theme.colors.whiteColor};
+        transition: .4s;
+
+        &:hover {
+          color: ${theme.colors.gradientColor};
+        }
       }
    `}
 `;

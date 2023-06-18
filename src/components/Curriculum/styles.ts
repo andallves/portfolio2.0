@@ -10,9 +10,9 @@ export const Div = styled.div`
     width: 17rem;
     height: 5rem;
 
-    background: #00d2ff;
-    background: -webkit-linear-gradient(to right, #928dab, #00d2ff);
-    background: linear-gradient(to right, #928dab, #00d2ff);
+    background: #24c6dc;
+    background: -webkit-linear-gradient(to right, #494a9d, #24c6dc);
+    background: linear-gradient(to right, #514a9d, #24c6dc);
 
     &:hover {
       background: rgba(0, 205, 255, 0.8);
@@ -29,6 +29,5 @@ export const Div = styled.div`
         color: ${theme.colors.whiteColor};
       }
     }
-
   `}
 `;

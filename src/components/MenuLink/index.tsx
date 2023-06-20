@@ -3,9 +3,9 @@ import * as Styled from './styles';
 export const MenuLink = () => {
   return (
     <Styled.Menu>
-      <a href='#projects'>Projects</a>
-      <a href='#technologies'>Technologies</a>
-      <a href='#about'>About me</a>
+      <a href='#projects'>Projetos</a>
+      <a href='#technologies'>Tecnologias</a>
+      <a href='#about'>Sobre</a>
     </Styled.Menu>
   )
 }

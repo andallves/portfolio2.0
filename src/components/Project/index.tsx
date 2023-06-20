@@ -15,7 +15,7 @@ export const Project = ({ projectImg, title, description, link }: ProjectProps) 
       <Styled.Div></Styled.Div>
       <Styled.P>{description}</Styled.P>
       <Styled.ContainerButton>
-        <Button type={'button'} link={link}>Look it up</Button>
+        <Button type={'button'} link={link}>Ir</Button>
       </Styled.ContainerButton>
     </Styled.Project>
   );

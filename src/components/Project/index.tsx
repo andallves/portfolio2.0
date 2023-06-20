@@ -1,15 +1,22 @@
 import { Button } from '../Button';
 import * as Styled from './styles';
-import projectImg from '../../assets/imgs/project_img.png';
 
-export const Project = () => {
+interface ProjectProps {
+  projectImg: string;
+  title: string;
+  description: string;
+  link: string
+}
+export const Project = ({ projectImg, title, description, link }: ProjectProps) => {
   return (
     <Styled.Project>
-      <img src={projectImg} alt="Imagem do project" />
-      <h3>Project</h3>
-      <div></div>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio ipsa sequi ab mollitia nemo ex distinctio, ratione harum optio qui fugiat tenetur cupiditate consectetur esse accusamus ipsum delectus soluta. Vero.</p>
-      <Button type={'button'}>Look it up</Button>
+      <Styled.Image src={projectImg} alt="Imagem do project" />
+      <Styled.H3>{title}</Styled.H3>
+      <Styled.Div></Styled.Div>
+      <Styled.P>{description}</Styled.P>
+      <Styled.ContainerButton>
+        <Button type={'button'} link={link}>Look it up</Button>
+      </Styled.ContainerButton>
     </Styled.Project>
   );
 };

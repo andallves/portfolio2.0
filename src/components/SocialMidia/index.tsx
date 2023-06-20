@@ -1,9 +1,13 @@
 import * as Styled from './styles';
 import { BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs';
 
-export const SocialMidia = () => {
+interface SocialMidiaProps {
+  isBigger: boolean;
+}
+
+export const SocialMidia = ({isBigger}: SocialMidiaProps) => {
   return (
-    <Styled.Ul>
+    <Styled.Ul isBigger={isBigger}>
       <li>
         <a>
           <BsGithub />

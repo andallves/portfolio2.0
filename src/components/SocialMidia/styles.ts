@@ -1,12 +1,16 @@
 import styled, { css } from 'styled-components';
 
-export const Ul = styled.ul`
-  ${({ theme }) => css`
+interface ulWidth {
+  readonly isBigger: boolean
+}
+
+export const Ul = styled.ul<ulWidth>`
+  ${({ theme, isBigger = false }) => css`
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 10.1rem;
+    width: ${isBigger ? '25rem' : '10.1rem'};
     list-style: none;
 
     > li {
@@ -15,7 +19,7 @@ export const Ul = styled.ul`
       > a {
         > svg {
           fill: ${theme.colors.whiteColor};
-          font-size: ${theme.sizes.small};
+          font-size: ${isBigger ? theme.sizes.huge : theme.sizes.small};
           cursor: pointer;
           transition: all 0.4s;
 

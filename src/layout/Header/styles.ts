@@ -15,7 +15,7 @@ export const Header = styled.header`
 
     > h1 {
       position: absolute;
-      top: 10rem;
+      top: 15rem;
       left: 10rem;
       font-size: ${theme.sizes.xhuge};
       font-family: ${theme.fontFamily.default};
@@ -28,7 +28,7 @@ export const Header = styled.header`
     > .text-animate {
       position: absolute;
       left: 13rem;
-      top: 15rem;
+      top: 20rem;
       width: 35rem;
     }
 

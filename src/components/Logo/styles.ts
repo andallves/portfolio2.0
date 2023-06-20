@@ -13,14 +13,14 @@ export const Container = styled.div`
       width:17.4rem;
       height:4.5rem;
       left: calc(50% - 12.4rem/2) - 70.6rem;
-      color: ${theme.colors.whiteColor};
+      color: ${theme.colors.gradientColor};
+      text-shadow: 0 0 .5rem  rgba(0,0,0,0.6);
 
       font-family: 'Satisfy', cursive;
       font-style: normal;
       font-weight: 500;
       font-size: ${theme.sizes.xlarge};
       line-height: 4.5rem;
-      color: ${theme.colors.grayColor};
     }
   `}
 `;

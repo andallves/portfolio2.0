@@ -24,7 +24,8 @@ export const Container = styled.div`
 
 export const P = styled.p`
   position: relative;
-  font-size: 1.6rem;
-  margin: 2rem 5rem 3rem;
+  font-size: 1.8rem;
+  margin: 2rem 0 3rem;
   padding: 4rem;
+  color: ${({theme}) => theme.colors.grayColor};
 `;

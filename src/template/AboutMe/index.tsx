@@ -4,19 +4,21 @@ import * as Styled from './styles';
 
 export const AboutMe = () => {
   return (
-    <Styled.Section id='about'>
-      <Heading>About me</Heading>
+    <Styled.Section id="about">
+      <Heading>Sobre mim</Heading>
 
       <Styled.Container>
         <AboutImage />
 
         <Styled.P>
-          Quando eu tive o primeiro contato com a programação me identifiquei
-          muito, e desde então venho buscando aprender novas tecnologias e
-          praticando diariamente, dessa forma sinto-me opto para contribuir,
-          assim busco minha primeira oportunidade. Sou um pouco tímido mas gosto
-          de trabalhar em equipe e prezo por uma boa comunicação, pois acredito
-          que a troca de experiência é sempre valida.
+          Olá, Eu me chamo Andre, tenho 23 anos, sou estudande de Ciência da
+          Computação no IFCE - Instituto Federal do Ceará, e com estudos
+          paralelo em desenvolvimento web fullstack, quando eu tive o primeiro
+          contato com a programação foi 'amor a primeira vista' rsrs, me
+          identifiquei muito, e desde então venho buscando aprender novas
+          tecnologias e praticando diariamente, no meu perfil do Github há
+          diversos projetos desenvolvidos por mim ou inspirados em cursos que
+          participei.
         </Styled.P>
       </Styled.Container>
     </Styled.Section>

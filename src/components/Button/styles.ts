@@ -14,5 +14,11 @@ export const Button = styled.button`
     font-size: ${theme.sizes.xsmall};
     line-height: 4.2rem;
     color: ${theme.colors.whiteColor};
+    cursor: pointer;
+    transition: all .5s;
+
+    &:hover {
+      opacity: .8;
+    }
   `}
 `;

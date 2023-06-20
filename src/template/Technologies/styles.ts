@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 
 export const Section = styled.section`
-   ${() => css`
+  ${() => css`
     width: 90%;
     height: 100%;
     margin: 5rem auto;
     padding: 2rem;
-`}
+  `}
 `;
 
 export const ContainerSkills = styled.div`
@@ -23,33 +23,30 @@ export const ContainerSkills = styled.div`
 `;
 
 export const ContainerAdditionalSkills = styled.div`
-  ${({theme}) => css`
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: flex-start;
+  margin: 5rem auto;
+
+  > h3 {
+    margin-left: 10rem;
+    font-size: ${({ theme }) => theme.sizes.large};
+    font-weight: 500;
+  }
+
+  > ul {
+    margin: 3rem auto;
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-items: flex-start;
-    margin: 5rem auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
 
-    > h3 {
-      margin-left: 4rem;
-      font-size: ${theme.sizes.large};
-      font-weight: 500;
+    > li {
+      font-size: ${({ theme }) => theme.sizes.medium};
     }
-
-    > ul {
-      margin: 3rem auto;
-      width: 80%;
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 20rem;
-
-      > li {
-        font-size: ${theme.sizes.medium};
-
-      }
-    }
-  `}
+  }
 `;

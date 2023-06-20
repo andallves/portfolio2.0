@@ -8,7 +8,7 @@ export const Curriculum = () => {
         download='André_Alves_Pereira._CV.pdf'
         type='application.pdf'
       >
-        <p className='btnText'>Let's begin</p>
+        <p className='btnText'>Saiba mais CV</p>
       </a>
     </Styled.Div>
   );

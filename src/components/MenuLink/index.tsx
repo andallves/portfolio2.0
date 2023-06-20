@@ -5,7 +5,7 @@ export const MenuLink = () => {
     <Styled.Menu>
       <a href='#projects'>Projects</a>
       <a href='#technologies'>Technologies</a>
-      <a href='#'>About me</a>
+      <a href='#about'>About me</a>
     </Styled.Menu>
   )
 }

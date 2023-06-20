@@ -8,7 +8,7 @@ export const Navbar = () => {
       <Styled.Nav>
          <Logo />
          <MenuLink />
-         <SocialMidia />
+         <SocialMidia isBigger={false} />
       </Styled.Nav>
    );
 };
